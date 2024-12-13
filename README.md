@@ -42,7 +42,7 @@ https://zenn.dev/bonsai_engineer/articles/3cd836a5c649fe
 
 ## Philips Hue GoとのBLE接続
 
-Philips Hue GoとBLE接続する際、接続が切断される問題が報告されています。この問題を回避するため、以下の手順でデバイスを設定します。
+Philips Hue GoとBLE接続する際、接続が切断される問題が報告されています。この問題を回避するため、以下の手順でデバイスを設定します。pairは他のデバイスで過去に接続したことがある場合、一度hueアプリからリセットをかけてから実行する必要があります。
 
 1. **デバイスのスキャン**:
    ```bash
