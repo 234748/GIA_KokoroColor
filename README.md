@@ -14,7 +14,7 @@ Raspberry Piの起動時に`main.py`を自動的に実行するには、`systemd
 
 1. **サービスファイルの作成**:
    ```bash
-   sudo nano /etc/systemd/system/kokorocolor.service
+   sudo vim /etc/systemd/system/kokorocolor.service
    ```
    以下の内容を入力します。
    ```ini
